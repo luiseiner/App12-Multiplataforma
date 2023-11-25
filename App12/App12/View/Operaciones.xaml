@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App12.View.Operaciones">
+    <ContentPage.Content>
+        <StackLayout>
+            
+
+            <Entry Placeholder="Valor 1" FontSize="Title" Text="{Binding Valor1}" />
+            <Entry Placeholder="Valor 2" FontSize="Title" Text="{Binding Valor2}" />
+            <Entry Placeholder="Valor 3" FontSize="Title" Text="{Binding Valor3}" />
+            <Label Text="{Binding Resultado}" />
+            <Button Text="Sumar"  Command="{Binding Sumar}"/>
+            <Button Text="Multiplicar"  Command="{Binding Multiplicar}"/>
+            <Label Text="Resultado" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
